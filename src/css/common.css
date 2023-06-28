@@ -53,13 +53,6 @@ button[type='submit']:hover {
 }
 
 .scrollup-button {
-    position: fixed;
-    top: 16.5px;
-    left: 100px;
-    right: 0;
-
-    margin-left: 1100px;
-
     height: 25px;
     width: 50px;
 
@@ -85,6 +78,7 @@ button[type='submit']:hover {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 
 .photo-card {
