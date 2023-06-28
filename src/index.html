@@ -9,8 +9,16 @@
 </head>
 
 <body>
+  <form class="search-form" id="search-form">
+    <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button type="submit">Search</button>
+  </form>
 
-  <script src="./index.js"></script>
+  <button hidden class="scrollup-button" type="button">Up</button>
+
+  <div class="gallery"></div>
+
+  <script type="module" src="./index.js"></script>
 </body>
 
 </html>
